@@ -20,12 +20,13 @@
 
     h1 {
       font-size: 26px;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
     }
 
-    p {
-      color: #666;
-      margin-bottom: 20px;
+    .notice {
+      color: red;
+      font-size: 13px;
+      margin-bottom: 16px;
     }
 
     .btn {
@@ -46,10 +47,22 @@
       margin-top: 5px;
     }
 
+    .line-box {
+      background: white;
+      padding: 16px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+    }
+
     .line-btn {
       background: #06C755;
       color: white;
       font-weight: bold;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin: 10px 0;
     }
 
     .footer {
@@ -72,31 +85,40 @@
 <div class="container">
 
   <h1>🔥 精選便宜好物</h1>
-  <p>我幫你挑過的，不踩雷才放上來</p>
+  <div class="notice">⏰ 最近測試真的不錯才放上來</div>
 
-  <!-- LINE -->
-  <a class="btn line-btn" href="https://lin.ee/9cRWF5B" target="_blank">
-    📲 加入LINE｜之後團購會更便宜
-  </a>
+  <!-- LINE收粉 -->
+  <div class="line-box">
+    <div style="font-weight:bold;font-size:16px;margin-bottom:6px;">
+      💰 想買更便宜？
+    </div>
+    <div style="font-size:13px;color:#666;margin-bottom:10px;">
+      我之後會在LINE開團，比蝦皮更便宜
+    </div>
 
-  <p>今日推薦</p>
+    <a class="btn line-btn" href="https://lin.ee/9cRWF5B" target="_blank">
+      📲 加入LINE搶團購價
+    </a>
+  </div>
+
+  <div class="section-title">👇 今天最值得買的3個</div>
 
   <!-- 商品1 -->
   <a class="btn" href="https://tw.shp.ee/1fplfrp8?smtt=0.0.9" target="_blank">
-    寵物超吸水尿布墊｜防漏不臭 一整天乾爽
-    <span class="sub">加厚設計吸水快｜養狗家庭必備 不外滲更安心</span>
+    🐶 寵物超吸水尿布墊
+    <span class="sub">防漏不臭｜加厚吸水｜養狗家庭必備</span>
   </a>
 
   <!-- 商品2 -->
   <a class="btn" href="https://tw.shp.ee/2k84tv8n?smtt=0.0.9" target="_blank">
-    8K智慧電視盒｜手機秒變家庭影音中心
-    <span class="sub">支援多平台影片｜安裝簡單 長輩也會用</span>
+    📺 8K智慧電視盒
+    <span class="sub">多平台影片｜安裝簡單｜長輩也會用</span>
   </a>
 
   <!-- 商品3 -->
   <a class="btn" href="https://tw.shp.ee/ko89bbm7?smtt=0.0.9" target="_blank">
-    克潮靈除濕桶｜衣櫃房間防潮除濕必備
-    <span class="sub">吸濕除臭一次搞定｜雨天不再潮濕發霉</span>
+    🌧️ 克潮靈除濕桶
+    <span class="sub">吸濕除臭｜防潮防霉｜居家必備</span>
   </a>
 
   <div class="footer">
